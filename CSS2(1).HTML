@@ -1,0 +1,102 @@
+<!-- CSS BOX MODEL-->
+<!--Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h2>Calculate the total width:</h2>
+
+<img src="https://www.w3schools.com/css/klematis4_big.jpg" width="350" height="263" alt="Klematis">
+<div>The picture above is 350px wide. The total width of this element is also 350px.</div>
+
+</body>
+</html>
+
+<!-- Padding Elements-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual padding properties</h2>
+
+<div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.padding {
+    padding-left: 2cm;
+}
+p.padding2 {
+    padding-left: 50%;
+}
+</style>
+</head>
+<body>
+
+<p>This is a text with no left padding.</p>
+<p class="padding">This text has a left padding of 2 cm.</p>
+<p class="padding2">This text has a left padding of 50%.</p>
+
+</body>
+</html>
+
+
